@@ -16,7 +16,7 @@ public class PartidaUnJugador {
 		private boolean finalizada = false;
 		
 		
-		public boolean repartir() {
+		public  boolean repartir() {
 			if(!finalizada)
 				System.out.println("No puedo repartir, La partida no Ha finalizado");
 			else {
